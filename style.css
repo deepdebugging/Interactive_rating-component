@@ -1,0 +1,96 @@
+html {
+    height: 100%
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: hsl(216, 12%, 8%);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #1C222C;
+    flex-direction: column;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 30%;
+    height: 30%;
+    max-width: 20rem;
+    min-width: 18rem;
+    min-height: 20rem;
+
+}
+
+.submit {
+    display: none;
+}
+
+.attribution {
+    display: none;
+}
+
+h2 {
+    align-self: flex-start;
+    font-size: 1.5rem;
+    color: white;
+    height: 2rem;
+    font-family: "Overpass";
+    font-weight: 700;
+
+}
+
+span {
+    background: #282F39;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%)
+}
+
+span:hover,
+span:active, .clicked{
+    background: #FC7612;
+    color: white;
+    cursor: pointer;
+
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass";
+    font-weight: 400;
+}
+
+.rating {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#submit {
+    width: 100%;
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+    background-color: #FC7612;
+    border: none;
+    height: 3rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+#submit:hover,
+#submit:active {
+    color: #FC7612;
+    background-color: hsl(0, 0%, 100%);
+    font-family: "Overpass";
+    cursor: pointer;
+}
